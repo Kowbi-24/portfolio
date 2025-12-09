@@ -60,9 +60,11 @@ body {
 .nav-bar-button:hover {
     scale: 1.1;
     cursor: pointer;
+    color: var(--primary-text);
 }
 
 .nav-bar-icon:hover {
     scale: 1.1;
     cursor: pointer;
+    color: var(--primary-text);
 }
