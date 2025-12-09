@@ -10,9 +10,7 @@
 
 
     <body>
-        <div class="nav-bar">
-
-            <!-- Nav Bar -->
+        <!-- <div class="nav-bar">
             <button class="nav-bar-button">
                 Home
             </button>
@@ -26,7 +24,9 @@
             <button class="nav-bar-button">
                 Contact
             </button>
-        </div>
+        </div> -->
+
+        <div id="particles-js"></div>
 
         <!-- Profile Section -->
         <div class="profile-wrapper">
@@ -47,6 +47,7 @@
                 </div>
             </div>
             
+            <!-- Profile Picture -->
             <img src="./assets/images/profile_picture.jpg" class="profile-picture">
 
             <!-- Scroll Indicator -->
@@ -94,9 +95,30 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Projects Section -->
+         <h1>PROJECTS</h1>
+         <div class="content-wrapper">
+            <div class="content-container">
+                <p class="content-container-title">Fork & Feast</p>
+                <p class="description">A mobile food ordering application</p>
+            </div>
+            <div class="content-container">
+                <p class="content-container-title">Veterinary Clinic DBMS</p>
+                <p class="description">A Database Management System</p>
+            </div>
+            <div class="content-container">
+                <p class="content-container-title">CrustaScan</p>
+                <p class="description">A Crustacean Species recognition system built with CNN and K-Means Clustering</p>
+            </div>
+         </div>
     </body>
 
+    <!-- Scripts -->
     <script src="./js/scroll_indicator.js"></script>
     <script src="./js/skills.js"></script>
+    <!-- <script src="./js/particles_init.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./js/particles.js"></script>
 
 </html>

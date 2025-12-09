@@ -20,23 +20,17 @@ const options = {
     threshold: 0.0 
 };
 
-// Create a new Intersection Observer instance
+
 const observer = new IntersectionObserver(handleIntersection, options);
 
+const allH1s = document.querySelectorAll('h1'); 
+const allContentWrappers = document.querySelectorAll('.content-wrapper'); 
 
 
-const h1Element = document.querySelector('h1'); 
-const contentWrapper = document.querySelector('.content-wrapper'); 
-
-const elementsToObserve = [];
-
-if (h1Element) {
-    elementsToObserve.push(h1Element);
-}
-
-if (contentWrapper) {
-    elementsToObserve.push(contentWrapper);
-}
+const elementsToObserve = [
+    ...allH1s, 
+    ...allContentWrappers
+];
 
 elementsToObserve.forEach(element => {
     observer.observe(element);
