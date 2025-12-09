@@ -2,7 +2,7 @@
     --primary-color: #222222;
     --accent-color: #ffffff;
     --primary-bg: #001a2b;
-    --secondary-bg: #012944;
+    --secondary-bg: rgb(1, 41, 68);
     --primary-text: #93b0ff;
     --secondary-text: #d3d3d3;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

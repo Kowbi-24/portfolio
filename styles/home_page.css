@@ -22,6 +22,19 @@ h1.visible {
     align-items: center;
     justify-content: center;
     position: relative;
+    
+
+}
+
+.profile-container {
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(24, 24, 24, 0.7); */
+    background-color: rgba(1, 41, 68, 0.7);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 .profile-text-wrapper {
@@ -119,7 +132,7 @@ h1.visible {
 
 .content-container:hover {
     scale: 1.05;
-    background-color: rgba(1, 41, 68, 0.5);
+    background-color: rgba(1, 41, 68, 0.8);
 }
 
 .content-container-title {
