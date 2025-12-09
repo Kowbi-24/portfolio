@@ -14,7 +14,7 @@ h1.visible {
     transform: translateY(0);
 }
 
-
+/* PROFILE STYLES */
 .profile-wrapper {
     display: flex;
     width: 70%;
@@ -47,14 +47,22 @@ h1.visible {
     letter-spacing: 3px;
 }
 
+.contact-info {
+    color: var(--secondary-text);
+    margin: 5px;
+    letter-spacing: 3px;
+}
+
 .profile-picture {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    box-shadow: 6px 3px 15px 3px #6d6d6d;
+    box-shadow: 0px 3px 15px 5px #6d6d6d;
 
 }
 
+
+/* SCROLL INDICATOR STYLES */
 .scroll-indicator {
     position: absolute; 
     bottom: 30px; 
@@ -73,6 +81,12 @@ h1.visible {
     transition: opacity 0.5s ease-in-out;
 }
 
+.scroll-text {
+    margin: 0;
+}
+
+
+/* SKILLS STYLES */
 .content-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,6 +136,14 @@ ul {
 .hidden {
     opacity: 0;
     pointer-events: none;
+}
+
+.contact-icons {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
 }
 
 
