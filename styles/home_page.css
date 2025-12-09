@@ -1,0 +1,20 @@
+
+.profile-wrapper {
+    display: flex;
+}
+
+.profile-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.name {
+    /* font-family: 'Inter', 'sans-serif'; */
+    color: white;
+}
+
+.description {
+    /* font-family: 'Inter', 'sans-serif'; */
+    color: var(--secondary-text);
+}
